@@ -1,5 +1,5 @@
-#ifndef VECTOR_MATH_H
-#define VECTOR_MATH_H
+#pragma once
+
 #include <fstream>
 #include <vector>
 #include <ranges>
@@ -369,4 +369,3 @@ Matrix inverse(const Matrix& matrix)
     result *= 1/determinant(matrix);
     return result;
 }
-#endif //VECTOR_MATH_H

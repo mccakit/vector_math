@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 23)
 
 add_executable(Chapter_3 main.cpp
         vector_math.h
-        vector_math.h)
+        vector_math.h
+        matrix_transformations.h
+        ppm.h)
